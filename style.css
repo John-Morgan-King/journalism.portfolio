@@ -1,92 +1,100 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f4f4f4;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
 header {
-  text-align: center;
-  background: #333;
-  color: #fff;
-  padding: 20px;
+    background: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
 }
 
 header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+    font-size: 3rem;
 }
 
 header p {
-  font-size: 1.2rem;
-  font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+nav {
+    background: #444;
+    padding: 0.5rem;
 }
 
 nav ul {
-  list-style-type: none;
-  text-align: center;
-  margin-top: 20px;
+    list-style: none;
+    text-align: center;
 }
 
 nav ul li {
-  display: inline;
-  margin: 0 15px;
+    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
 }
 
 nav ul li a:hover {
-  color: #007BFF;
+    color: #f4f4f4;
+    text-decoration: underline;
 }
 
-section.bio {
-  margin-top: 30px;
-  text-align: center;
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 1.5rem;
 }
 
-section.bio h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
+#about {
+    background: #fff;
+    padding: 2rem 0;
+    text-align: center;
 }
 
-section.bio p {
-  font-size: 1.1rem;
-  margin: 0 auto;
-  max-width: 800px;
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
-footer {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 0.9rem;
+#about p {
+    font-size: 1.2rem;
+    color: #666;
 }
 
-article {
-  max-width: 800px;
-  margin: 40px auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#articles {
+    padding: 2rem 0;
 }
 
-article h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
+#articles h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
-article p {
+.article-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1.5rem 0;
+}
+
+.article-list article {
+    background-color: #fff;
+    padding: 1.5rem;
+
   font-size: 1.1rem;
   line-height: 1.8;
 }
