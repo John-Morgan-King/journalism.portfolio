@@ -93,4 +93,54 @@ footer {
 footer p {
   margin: 0;
 }
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  height: 100vh;            /* Full viewport height */
+  background-color: #f8f4e3;
+  color: #333;
+}
+
+/* Article container */
+article {
+  max-width: 800px;         /* Set a maximum width */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+  text-align: left;         /* Ensure text is left-aligned */
+}
+
+/* Header styling */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;       /* Center the title */
+}
+
+/* Paragraph styling */
+p {
+  line-height: 1.6;         /* Make paragraphs easier to read */
+  margin-bottom: 20px;
+}
+
+/* Date styling */
+p strong {
+  font-weight: bold;
+}
+
+/* Ensure body text isn't too wide */
+@media (max-width: 900px) {
+  article {
+    padding: 10px;
+  }
+}
 
