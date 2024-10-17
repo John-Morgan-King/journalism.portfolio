@@ -14,7 +14,7 @@ body {
 
 header {
     text-align: center;
-    background-color: #3B003B; /* Dark purple header */
+    background-color: #c8a3e1; /* Light purple header */
     color: #EDEDED;
     padding: 2rem 0;
 }
@@ -30,7 +30,7 @@ header p {
 }
 
 nav {
-    background-color: #255C27; /* Dark green for navigation */
+    background-color: #6ee19b; /* Light green for navigation */
     padding: 1rem;
 }
 
