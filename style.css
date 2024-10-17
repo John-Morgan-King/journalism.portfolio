@@ -106,6 +106,11 @@ body {
   line-height: 1.6;
   padding: 20px;
   background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 /* Header */
@@ -144,16 +149,19 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Article */
+/* Centered Article */
 article {
   max-width: 800px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
   background: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
+/* Article Header */
 article h2 {
   font-size: 2em;
   color: #333;
@@ -164,6 +172,7 @@ article p {
   color: #555;
 }
 
+/* Footer */
 footer {
   text-align: center;
   margin-top: 40px;
@@ -174,3 +183,4 @@ footer {
 footer p {
   margin-top: 20px;
 }
+
