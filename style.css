@@ -49,7 +49,7 @@ nav ul li a:hover {
 /* Bio Section */
 section.bio {
   padding: 50px;
-  background-color: transparent; /* Removed white background */
+  background-color: #fff;
   text-align: center;
 }
 
@@ -72,8 +72,8 @@ article {
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
-  background-color: transparent; /* Removed white background */
-  box-shadow: none; /* Optional: remove drop shadow */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 article h2 {
@@ -93,7 +93,6 @@ article p {
 article p strong {
   color: #c8b48d;
 }
-
 
 /* Footer Styles */
 footer {
