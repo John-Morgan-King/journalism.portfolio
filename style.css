@@ -49,8 +49,10 @@ nav ul li a:hover {
 /* Bio Section */
 section.bio {
   padding: 50px;
-  background-color: #fff;
+  background-color: #f8f4e3; /* Same as body */
   text-align: center;
+  margin: 0; /* Remove extra spacing */
+  width: 100%;
 }
 
 section.bio h2 {
@@ -69,11 +71,11 @@ section.bio p {
 
 /* Article Styling */
 article {
-  max-width: 800px;
-  margin: 40px auto;
+  width: 100%; /* Full width */
+  margin: 0; /* Remove margin gap */
   padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f4e3; /* Same as body */
+  box-shadow: none; /* Remove card effect */
 }
 
 article h2 {
@@ -93,6 +95,7 @@ article p {
 article p strong {
   color: #c8b48d;
 }
+
 
 /* Footer Styles */
 footer {
@@ -122,6 +125,7 @@ footer p {
     font-size: 1em;
   }
 }
+
 
 
 
