@@ -1,7 +1,10 @@
 /* Header Styles */
 <style type="text/css">
 body { 
-    margin: 0;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
 }
 </style>
 header {
@@ -127,6 +130,7 @@ footer p {
     font-size: 1em;
   }
 }
+
 
 
 
