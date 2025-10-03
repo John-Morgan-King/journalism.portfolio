@@ -1,4 +1,9 @@
 /* Header Styles */
+<style type="text/css">
+body { 
+    margin: 0;
+}
+</style>
 header {
   background-color: #c8b48d;
   color: #fff;
@@ -122,6 +127,7 @@ footer p {
     font-size: 1em;
   }
 }
+
 
 
 
