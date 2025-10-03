@@ -1,12 +1,4 @@
 /* Header Styles */
-<style type="text/css">
-body { 
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px
-}
-</style>
 header {
   background-color: #c8b48d;
   color: #fff;
@@ -130,6 +122,7 @@ footer p {
     font-size: 1em;
   }
 }
+
 
 
 
